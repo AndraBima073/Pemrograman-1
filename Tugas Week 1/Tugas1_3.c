@@ -6,7 +6,7 @@
 float jari,tinggi,luas,volume,rumus,pelukis;
 int pilihan;
 
-int Bola(), Tabung(), Kerucut();
+int Bola(), Tabung(), Kerucut(), Kuadrat();
 
 int main () {
     printf("Silahkan Pilih bentuk yang ingin kamu hitung\n");
@@ -172,4 +172,8 @@ int Kerucut() {
     default:
         break;
     }
+}
+
+int Kuadrat(){
+    
 }
