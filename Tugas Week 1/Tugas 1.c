@@ -5,14 +5,14 @@
 
 int main() {
 
-float jari, luas, volume;
-jari = 7;
+    float jari, luas, volume;
+    jari = 7;
 
-luas = 4 * pi * pow(jari, 2);
-volume = (4 * pi * pow(jari, 3))/3;
+    luas = 4 * pi * pow(jari, 2);
+    volume = (4 * pi * pow(jari, 3))/3;
 
-printf("Jari-Jari: %.0f cm\n", jari);
-printf("Luas Bola: %.2f cm\n", luas);
-printf("Volume Bola: %.2f cm\n", volume);
-
+    printf("Jari-Jari: %.0f cm\n", jari);
+    printf("Luas Bola: %.2f cm\n", luas);
+    printf("Volume Bola: %.2f cm\n", volume);
+    return 0;
 }

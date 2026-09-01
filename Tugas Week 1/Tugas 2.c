@@ -13,9 +13,9 @@ int main() {
     luas_p = 2 * pi * jari * (jari + tinggi);
     volume = pi * jari * 2 * tinggi;
 
-    printf("Luas Alas Tabung: %f cm\n", luas_a);
-    printf("Luas Selimut Tabung: %f cm\n", luas_s);
-    printf("Luas Permukaan Tabung: %f cm\n", luas_p);
-    printf("Volume Tabung: %f cm\n", volume);
-
+    printf("Luas Alas Tabung: %.2f cm\n", luas_a);
+    printf("Luas Selimut Tabung: %.2f cm\n", luas_s);
+    printf("Luas Permukaan Tabung: %.2f cm\n", luas_p);
+    printf("Volume Tabung: %.2f cm\n", volume);
+    return 0;
 }

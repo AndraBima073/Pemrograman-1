@@ -21,6 +21,5 @@ int main() {
     printf("Luas Selimut Kerucut: %.2f cm\n", luas_s);
     printf("Luas Permukaan Kerucut: %.2f cm\n", luas_p);
     printf("Volume Kerucut: %.2f cm\n", volume);
-
-
+    return 0;
 }
