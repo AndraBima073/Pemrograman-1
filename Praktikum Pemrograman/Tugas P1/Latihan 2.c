@@ -3,17 +3,17 @@
 int main() {
 
     int a = 25, b = 7;
-    float Penjumlahan = a + b;
-    float Pengurangan = a - b;
-    float Perkalian = a * b;
-    float Pembagian = a / b;
-    float Sisa = a % b;
+    int Penjumlahan = a + b;
+    int Pengurangan = a - b;
+    int Perkalian = a * b;
+    int Pembagian = a / b;
+    int Sisa = a % b;
 
-    printf("Hasil Penjumlahan   = %.2f\n", Penjumlahan);
-    printf("Hasil Pengurangan   = %.2f\n", Pengurangan);
-    printf("Hasil Perkalian     = %.2f\n", Perkalian);
-    printf("Hasil Pembagian     = %.2f\n", Pembagian);
-    printf("Hasil Sisa          = %.2f\n", Sisa);
+    printf("Hasil Penjumlahan   = %d\n", Penjumlahan);
+    printf("Hasil Pengurangan   = %d\n", Pengurangan);
+    printf("Hasil Perkalian     = %d\n", Perkalian);
+    printf("Hasil Pembagian     = %d\n", Pembagian);
+    printf("Hasil Sisa          = %d\n", Sisa);
 
     return 0;
 }

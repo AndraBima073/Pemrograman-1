@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int var1 = 339;
-    int var2 = 259;
+    int var1 = 300;
+    int var2 = 250;
     int jumlah, selisih;
 
     jumlah = var1 + var2;

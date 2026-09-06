@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    printf("Assalamu'alaikum\n");
-    printf("Nama saya Andra Bima Ananta\n");
-    printf("NRP: 3226600064\n");
+    printf("Assalamualaikum!\n");
+    printf("Pemrograman merupakan kegiatan yang menarik.\n");
+    printf("Bahasa C merupakan salah satu bahasa pemrograman dasar.\n");
+    printf("Testing...\n");
+    printf(".1\n");
+    printf("..2\n");
+    printf("...3\n");
     return 0;
 }
