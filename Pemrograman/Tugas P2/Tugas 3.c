@@ -12,8 +12,8 @@ int main() {
     luas = PI * pow(jari, 2);
     keliling = 2 * PI * jari;
 
-    printf("Keliling lingkaran dengan jari-jari %.2f = %.2f\n", jari, keliling);
-    printf("Luas lingkaran dengan jari-jari %.2f = %.2f\n", jari, luas);
+    printf("Keliling lingkaran dengan jari-jari %.0f = %.2f\n", jari, keliling);
+    printf("Luas lingkaran dengan jari-jari %.0f = %.2f\n", jari, luas);
 
     return 0;
 }

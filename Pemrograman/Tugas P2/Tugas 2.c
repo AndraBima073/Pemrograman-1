@@ -11,7 +11,7 @@ int main() {
     z = (2 * pow(y, 2) + 5 * pow(x, 2)) / (9 * y);
 
     printf("Didapatkan nilai y = %.0f ", y);
-    printf("dan nilai z = %.2f\n", z);
+    printf("dan nilai z = %f\n", z);
 
     return 0;
 }

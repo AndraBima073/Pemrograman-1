@@ -8,7 +8,7 @@ int main() {
     scanf("%d:%d", &jam, &menit);
     
     rumus = jam * 60 + menit;
-    printf("Jam %d adalah setara dengan %d menit\n", jam, rumus);
+    printf("Jam %d:%02d adalah setara dengan %d menit\n", jam, menit, rumus);
 
     return 0;
 }
