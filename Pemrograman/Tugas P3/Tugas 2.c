@@ -7,5 +7,7 @@ int main() {
     m=(a>b) ? a: b;
     n=(c>d) ? c: d;
     hasil=(m>n) ? m: n;
-    printf("Hasil terbesar dari a,b,c,d adalah: %d\n", hasil);
+    printf("Variabel m: %d\n", m);
+    printf("Variabel n: %d\n", n);
+    printf("Hasil: %d\n", hasil);
 }

@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    double r = 5;
-    double pi = 3.14159;
-    double volume;
+    float r = 5;
+    float pi = 3.14159;
+    float volume;
 
     volume = (4.0 / 3.0) * pi * r * r * r;
     printf("Jari-jari = %.2f\n", r);

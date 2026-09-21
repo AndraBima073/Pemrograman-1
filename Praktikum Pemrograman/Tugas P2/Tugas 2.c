@@ -2,11 +2,11 @@
 
 int main() {
     int sisi = 10;
-    int Luas = sisi * sisi;
-    int Keliling = 4 * sisi;
+    int Luas = 6 * sisi * sisi;
+    int Volume = sisi * sisi * sisi;
 
     printf("Luas        = %d\n", Luas);
-    printf("Keliling    = %d\n", Keliling);
+    printf("Volume      = %d\n", Volume);
 
     return 0;
 }
