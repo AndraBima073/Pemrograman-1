@@ -1,49 +1,48 @@
 #include <stdio.h>
 
-int main () {
-    int runtime = 1;
-    char operation;
-    float bil1, bil2, hasil;
+int main() {
+    int accumulator = 0;
+    int bilangan;
+    char op;
 
-    printf("Masukkan 2 bilangan dan sebuah operator. \n\n");
-    printf("Dengan format:\n\n");
-    printf("= bilangan-1 operator bilangan-2\n\n");
-    printf("= ");
-    scanf("%f %c %f", &bil1, &operation, &bil2);
-    switch (operation)
-    {
-    case '*':
-        hasil = bil1 * bil2;
-        break;
+    printf("Mulai perhitungan\n");
 
-    case '/':
-        if (bil2 == 0){
-            runtime = 0;
+    while (1) {
+        scanf("%d %c", &bilangan, &op);
+
+        if (op == 'e'){
+            break;
+        } else if (op == 's') {
+            accumulator = bilangan;
+        } else if (op == '+') {
+            accumulator += bilangan;
+        } else if (op == '-') {
+            accumulator -= bilangan;
+        } else if (op == '*') {
+            accumulator *= bilangan;
+        } else if (op == '/') {
+            if (bilangan == 0) {
+                printf("Error: Pembagian dengan nol ditolak\n");
+                continue;
+            }
+            accumulator /= bilangan;
+        } else if (op == '%') {
+            if (bilangan == 0) {
+                printf("Error: Pembagian dengan nol ditolak\n");
+                continue;
+            }
+            accumulator %= bilangan;
+        } else if (op == '&') {
+            accumulator &= bilangan;
+        } else if (op == '|') {
+            accumulator |= bilangan;
         } else {
-            hasil = bil1 / bil2;
+            printf("Operator tidak dikenali\n");
+            continue;
         }
-        break;        
-        
-    case '+':
-        hasil = bil1 + bil2;
-        break;
 
-    case '-':
-        hasil = bil1 - bil2;
-        break;
-
-    default:
-        runtime = 0;
-        break;
+        printf("= %d\n", accumulator);
     }
-
-    if (runtime == 1)    {
-        printf("Hasil perhitungan \n\n");
-        printf("%.2f %c %.2f = %.2f", bil1, operation, bil2, hasil);
-    } else {
-        printf("\nOperator SALAH!\n");
-        printf("Gunakan operator +, -, / dan * saja\n");
-    }
-    
+    printf("Akhir perhitungan\n");
     return 0;
 }

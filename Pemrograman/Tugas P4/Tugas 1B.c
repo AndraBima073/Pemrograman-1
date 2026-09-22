@@ -1,18 +1,8 @@
 #include <stdio.h>
 
-int main () {
-    int jenis_bilangan, bilangan;
+int main() {
     char alphabhet;
 
-    printf("Masukkan bilangan bulat = ");
-    scanf("%d", &bilangan);
-    
-    if (bilangan % 2 == 0 ){
-        printf("Bilangan bulat Genap\n\n");
-    } else {
-        printf("Bilangan bulat Ganjil\n\n");
-    }
-    
     printf("Masukkan huruf (besar/kecil), angka atau karakter khusus: ");
     scanf(" %c", &alphabhet);
 
@@ -31,8 +21,5 @@ int main () {
     else {
         printf("Karakter khusus\n");
     }
-    
-    
-
     return 0;
 }
