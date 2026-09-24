@@ -27,9 +27,13 @@ int main () {
     } else {
         double real = -b / (2 * a);
         double imaginer = sqrt(-d) / (2 * a);
+        x1 = real + imaginer;
+        x2 = real - imaginer;
         printf("Akar-akar imaginer (berlainan):\n");
-        printf("x1 = %.2f + %.2fj\n", real, imaginer);
-        printf("x2 = %.2f - %.2fj\n", real, imaginer);
+        printf("x1 = %.2f + %.2f\n", real, imaginer);
+        printf("x1 = %.2lf\n\n", x1);
+        printf("x2 = %.2f - %.2f\n", real, imaginer);
+        printf("x2 = %.2lf", x2);
     }
     
     return 0;
