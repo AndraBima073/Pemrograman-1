@@ -5,8 +5,8 @@ int main () {
     float a, b, hasil;
     char oper;
 
-    printf("Masukkan 2 bilangan dan sebuah operator.\n\n");
-    printf("Dengan format:\n\n");
+    printf("Masukkan 2 bilangan dan sebuah operator.\n");
+    printf("Dengan format:\n");
     printf("Bilangan-1 operator Bilangan-2\n\n");
     printf("= ");
     scanf("%f %c %f", &a, &oper, &b);
@@ -38,7 +38,7 @@ int main () {
         runtime = 0;
     }
     if(runtime == 1) {
-        printf("\nHasil perhitungan\n\n");
+        printf("\nHasil perhitungan\n");
         printf("%.2f %c %.2f = %.2f", a, oper, b, hasil);
     } else {
         printf("\nGunakan operator +, -, / dan * saja!");
