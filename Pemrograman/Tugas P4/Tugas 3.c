@@ -9,9 +9,7 @@ int main () {
     if (tahun < 1900 || tahun > 2400) {
         printf("Tahun di luar batas!");
         return 1;
-    }
-
-    if (tahun % 400 == 0) {
+    } else if (tahun % 400 == 0) {
         printf("Tahun %d adalah Tahun Kabisat\n", tahun);
     } else if (tahun % 4 == 0 && tahun % 100 != 0) {
         printf("Tahun %d adalah Tahun Kabisat\n", tahun);

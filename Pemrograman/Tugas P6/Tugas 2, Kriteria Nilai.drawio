@@ -1,0 +1,205 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="Rt-4LAH3R6mCB1mftpcS">
+    <mxGraphModel dx="1042" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-1" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Start&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="100.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Stop&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="490.5" y="438.0000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-4" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Masukkan Nilai&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="136" x="83" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-6" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" target="sLIQi9DHKcyAE-emkKpp-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-7" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Ya&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0931" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-8" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-9" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Tidak&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2415" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; color: rgb(187, 190, 191);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;nilai &amp;gt;= 85&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; color: rgb(187, 190, 191);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;amp;&amp;amp; &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px; color: rgb(187, 190, 191);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;nilai &amp;lt;= 100&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="154.5" x="73.5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-11" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-12" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=14;" value="Cetak&amp;nbsp;&lt;div&gt;&quot;Grade A&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="265.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-13" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-14" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Tidak&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2262" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-15" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-16" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ya&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0793" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;nilai &amp;gt;= 75&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;nilai &amp;lt;= 84&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="154.5" x="73.5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-18" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-19" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Tidak&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4248" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-20" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-21" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ya&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1496" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-22" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;nilai &amp;gt;= 65&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;nilai &amp;lt;= 74&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="154.5" x="73.5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-23" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-24" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=14;" value="Cetak&amp;nbsp;&lt;div&gt;&quot;Grade B&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="265.25" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-25" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-26" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=14;" value="&lt;font&gt;Cetak&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&quot;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Grade C&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="265.25" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-27" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-28" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Cetak&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;Nilai tidak valid&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;(harus 0-100)&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="181" x="450" y="332.0000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-29" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="sLIQi9DHKcyAE-emkKpp-53" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="310" />
+            </Array>
+            <mxPoint x="430" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="410" as="sourcePoint" />
+            <mxPoint x="540" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-36" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-43" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Ya&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0034" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-37" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="sLIQi9DHKcyAE-emkKpp-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179.75" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-45" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Tidak&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1208" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-31" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;nilai &amp;gt;= 50&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;nilai &amp;lt;= 64&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="154.5" x="73.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-39" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-44" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Ya&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.029" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-40" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-46" connectable="0" parent="sLIQi9DHKcyAE-emkKpp-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Tidak&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1274" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;nilai &amp;gt;= 0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space: pre;&quot;&gt;nilai &amp;lt;= 49&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="154.5" x="463.25" y="122.00000000000011" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-41" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="429.75" y="905.0930232558139" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-35" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=14;" value="&lt;font&gt;Cetak&amp;nbsp;&lt;/font&gt;&lt;div&gt;&quot;Grade D&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="265" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-42" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-38" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=0;size=0.23;fontSize=14;" value="&lt;font&gt;Cetak&amp;nbsp;&lt;/font&gt;&lt;div&gt;&quot;Grade E&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="655.25" y="167.0000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-51" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="sLIQi9DHKcyAE-emkKpp-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-48" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.flowchart.on-page_reference;labelPosition=center;align=center;fontSize=20;" value="1" vertex="1">
+          <mxGeometry height="60" width="60" x="510.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-49" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.flowchart.on-page_reference;labelPosition=center;align=center;fontSize=20;" value="1" vertex="1">
+          <mxGeometry height="60" width="60" x="120.5" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-52" edge="1" parent="1" source="sLIQi9DHKcyAE-emkKpp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-50" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.flowchart.on-page_reference;labelPosition=center;align=center;fontSize=20;" value="2" vertex="1">
+          <mxGeometry height="60" width="60" x="770" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sLIQi9DHKcyAE-emkKpp-53" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.flowchart.on-page_reference;labelPosition=center;align=center;fontSize=20;" value="2" vertex="1">
+          <mxGeometry height="60" width="60" x="400" y="1020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
