@@ -30,8 +30,8 @@ int main() {
 
     int filmDipilih = 0;
     int harga = 0;
-
     int pilih, valid;
+    
     int lama, hariKembali, tambah;
     char jawab;
     int biaya, denda;
@@ -51,7 +51,7 @@ int main() {
     printf("%-4d %-26s Rp%-10d %-10s\n", 4, JUDUL4, HARGA4, STOK4 ? "Tersedia" : "Dipinjam");
     printf("%-4d %-26s Rp%-10d %-10s\n", 5, JUDUL5, HARGA5, STOK5 ? "Tersedia" : "Dipinjam");
 
-    do {
+        do {
         valid = 0;
         printf("\nPilih nomor film (1-5): ");
         scanf("%d", &pilih);
@@ -98,6 +98,7 @@ int main() {
 
     printf("Perpanjang peminjaman? (y/n): ");
     scanf(" %c", &jawab);
+    
     if (jawab == 'y' || jawab == 'Y') {
         printf("Tambah berapa hari? ");
         scanf("%d", &tambah);
