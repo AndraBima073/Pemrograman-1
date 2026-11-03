@@ -17,8 +17,8 @@ double akarKuadrat(double x){
 }
 
 int main() {
-    printf("%.2f\n", akarKuadrat(4.0));
-    printf("%.2f\n", akarKuadrat(0.0));
-    printf("%.2f\n", akarKuadrat(-39.5));
+    printf("Hasil dari akar kuadrat 4.0: %.2f\n", akarKuadrat(4.0));
+    printf("Hasil dari akar kuadrat 0.0: %.2f\n", akarKuadrat(0.0));
+    printf("Hasil dari akar kuadrat -39.5: %.2f\n", akarKuadrat(-39.5));
     return 0;
 }
