@@ -17,7 +17,7 @@ int main(void) {
         for (int j = 0; j < 8; j++){
             printf("%c", pola[i][j] ? '#' : ' ');
         }
-        printf("\\n");
+        printf("\n");
     }
     return 0;
 }

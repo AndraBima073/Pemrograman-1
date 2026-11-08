@@ -11,7 +11,7 @@ int main(void) {
     nilai[2]--;
 
     for (int i = 0; i < 10; i++) {
-        printf("nilai[%d] = %d\\n", i, nilai[i]);
+        printf("nilai[%d] = %d\n", i, nilai[i]);
     }
     
     return 0;
