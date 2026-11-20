@@ -1,65 +1,56 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_PART_LEN 50
-// Buffer nama lengkap: 50 (nama depan) + 1 (spasi) + 50 (nama belakang) + 1 ('\0') = 102
-#define MAX_FULL_LEN (MAX_PART_LEN * 2 + 2)
-
-// Fungsi pembantu untuk membersihkan karakter newline (\n) dari input fgets
-void trim_newline(char *str) {
-    size_t len = strlen(str);
-    if (len > 0 && str[len - 1] == '\n') {
-        str[len - 1] = '\0';
-    }
-}
+#define MAX 50
 
 int main() {
-    char first_name[MAX_PART_LEN];
-    char last_name[MAX_PART_LEN];
-    char full_name[MAX_FULL_LEN];
-    char compare_name[MAX_FULL_LEN];
+    char depan[MAX], belakang[MAX];
+    char lengkap[2 * MAX + 2];      /* depan + spasi + belakang + '\0' */
+    char pembanding[2 * MAX + 2];
+    int i, j, panjang;
 
-    // 1. Membaca Nama Depan & Nama Belakang
-    printf("Masukkan nama depan (maks %d karakter): ", MAX_PART_LEN - 1);
-    if (fgets(first_name, sizeof(first_name), stdin) != NULL) {
-        trim_newline(first_name);
+    /* Baca nama depan */
+    printf("Masukkan nama depan    : ");
+    fgets(depan, MAX, stdin);
+
+    /* Baca nama belakang */
+    printf("Masukkan nama belakang : ");
+    fgets(belakang, MAX, stdin);
+
+    /* Hapus '\n' bawaan fgets */
+    for (i = 0; depan[i] != '\0'; i++) {
+        if (depan[i] == '\n') { depan[i] = '\0'; break; }
+    }
+    for (i = 0; belakang[i] != '\0'; i++) {
+        if (belakang[i] == '\n') { belakang[i] = '\0'; break; }
     }
 
-    printf("Masukkan nama belakang (maks %d karakter): ", MAX_PART_LEN - 1);
-    if (fgets(last_name, sizeof(last_name), stdin) != NULL) {
-        trim_newline(last_name);
+    /* Gabungkan: depan + spasi + belakang */
+    panjang = 0;
+    for (i = 0; depan[i] != '\0'; i++) {
+        lengkap[panjang++] = depan[i];
     }
+    lengkap[panjang++] = ' ';
+    for (j = 0; belakang[j] != '\0'; j++) {
+        lengkap[panjang++] = belakang[j];
+    }
+    lengkap[panjang] = '\0';
 
-    // 2. Menggabungkan menjadi Nama Lengkap dengan snprintf (aman dari overflow)
-    snprintf(full_name, sizeof(full_name), "%s %s", first_name, last_name);
+    printf("\nNama lengkap       : %s\n", lengkap);
+    printf("Jumlah karakter    : %d\n", panjang);
 
-    // 3. Menghitung Jumlah Karakter Nama Lengkap
-    size_t total_chars = strlen(full_name);
-
-    printf("\n=== INFORMASI NAMA LENGKAP ===\n");
-    printf("Nama lengkap        : %s\n", full_name);
-    printf("Jumlah karakter     : %zu karakter (termasuk spasi)\n", total_chars);
-    printf("Ukuran buffer alokasi: %zu byte (aman dari overflow)\n", sizeof(full_name));
-
-    // 4. Membaca Nama Pembanding
+    /* Baca nama pembanding */
     printf("\nMasukkan nama pembanding: ");
-    if (fgets(compare_name, sizeof(compare_name), stdin) != NULL) {
-        trim_newline(compare_name);
+    fgets(pembanding, sizeof(pembanding), stdin);
+    for (i = 0; pembanding[i] != '\0'; i++) {
+        if (pembanding[i] == '\n') { pembanding[i] = '\0'; break; }
     }
 
-    // 5. Membandingkan dengan strcmp()
-    int res = strcmp(full_name, compare_name);
-
-    printf("\n=== HASIL PERBANDINGAN (strcmp) ===\n");
-    printf("Perbandingan: \"%s\" vs \"%s\"\n", full_name, compare_name);
-    printf("Nilai kembalian strcmp(): %d\n", res);
-
-    if (res == 0) {
-        printf("Hasil: Kedua nama IDENTIK (sama persis).\n");
-    } else if (res < 0) {
-        printf("Hasil: Nama lengkap mendahului nama pembanding secara alfabetis.\n");
+    /* Bandingkan dengan strcmp() */
+    if (strcmp(lengkap, pembanding) == 0) {
+        printf("Hasil: nama lengkap SAMA dengan nama pembanding.\n");
     } else {
-        printf("Hasil: Nama lengkap menyusul nama pembanding secara alfabetis.\n");
+        printf("Hasil: nama lengkap BERBEDA dengan nama pembanding.\n");
     }
 
     return 0;

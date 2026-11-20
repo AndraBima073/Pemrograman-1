@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(void) {
-    char kalimat[100] = "Belajar pemrograman C";
+    char kalimat[100] = "";
 
     printf("Kalimat : %s\n", kalimat);
     printf("Panjang string: %zu karakter\n", strlen(kalimat));
