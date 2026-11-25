@@ -8,7 +8,7 @@ struct waktu {
 };
 
 int waktuKeDetik(struct waktu w) {
-    return (w.jam + 3600) + (w.menit * 60) + w.detik;
+    return (w.jam * 3600) + (w.menit * 60) + w.detik;
 }
 
 struct waktu detikKeWaktu(int totalDetik) {
